@@ -1,0 +1,13 @@
+{
+  "name": "pageree",
+  "version": "1.0.0",
+  "description": "Build, preview, publish, and improve landing pages with hosting, lead capture, and analytics through Pageree.",
+  "author": {
+    "name": "Pageree",
+    "email": "support@pageree.com"
+  },
+  "homepage": "https://pageree.com/docs#cursor",
+  "repository": "https://github.com/Pageree/cursor-plugin",
+  "keywords": ["landing-pages", "website", "hosting", "lead-capture", "analytics", "mcp"],
+  "logo": "assets/logo.svg"
+}
