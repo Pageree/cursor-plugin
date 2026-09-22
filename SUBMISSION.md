@@ -28,7 +28,7 @@ Start with: "Use Pageree to create a landing page for my product. Ask me about t
 
 - [x] Validate the manifest, MCP configuration, and logo path.
 - [x] Publish the repository with public visibility.
-- [ ] Install the plugin locally in Cursor and confirm it appears.
+- [x] Install the plugin locally in Cursor and confirm it appears.
 - [ ] Complete OAuth in Cursor with a Pageree test account.
 - [ ] Call `whoami` and `list_pages` successfully through Cursor.
 - [ ] Submit the repository at https://cursor.com/marketplace/publish.
@@ -40,7 +40,7 @@ Record actual results here before submission. Do not mark the Cursor checks comp
 - Manifest name/version, HTTPS URLs, logo file, and exact MCP endpoint validated with Node assertions. The README JSON example matches `mcp.json`.
 - SVG passes `xmllint --noout`.
 - GitHub confirms the repository is public with `main` as its default branch.
-- Plugin files copied to `~/.cursor/plugins/local/pageree/`. Desktop Cursor is signed out, so plugin discovery, OAuth, and tool execution remain unverified.
-- Marketplace application prepared in the browser; not submitted. Submission also accepts Cursor's [Publisher Terms](https://cursor.com/marketplace-publisher-terms).
+- Plugin files copied to `~/.cursor/plugins/local/pageree/`. After sign-in, Cursor lists `pageree` as a plugin needing authentication and opens the Pageree consent screen. OAuth approval and tool execution remain pending.
+- Marketplace application prepared in the browser; not submitted. Submission is on hold at the owner's request. Submission also accepts Cursor's [Publisher Terms](https://cursor.com/marketplace-publisher-terms).
 
 Cursor's [submission checklist](https://cursor.com/docs/reference/plugins) and [local testing guide](https://cursor.com/docs/plugins#test-plugins-locally) are the source of truth for packaging and review requirements.
